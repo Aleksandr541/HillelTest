@@ -5,18 +5,13 @@ import java.util.Scanner;
 
 public class lotereya {
     public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
-
 
         Scanner in = new Scanner(System.in);
 
-
-        System.out.print("Введите количество игроков: ");
+        System.out.println("Введите количество игроков:");
         int n = in.nextInt();
-        System.out.printf("Поздравляю победил игрок №:");
+        System.out.print("Победил игрок №:");
 
-
-//       in.close();
 
         Math.random();
         int min = 1;
@@ -25,7 +20,7 @@ public class lotereya {
         java.util.Random Random = new Random();
         int i = Random.nextInt(diff + 1);
         i += min;
-        System.out.println(i);
+        System.out.print(i);
 
 
     }
