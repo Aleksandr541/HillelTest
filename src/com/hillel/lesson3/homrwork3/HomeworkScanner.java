@@ -13,7 +13,7 @@ public class HomeworkScanner {
         System.out.println("Введите Вашу фамилию:");
         String LastName = s.nextLine();
 
-        System.out.print("Укажите сколько Вам полных лет:");
+        System.out.println("Укажите сколько Вам полных лет:");
         int age = s.nextInt();
         s.nextLine();
 
