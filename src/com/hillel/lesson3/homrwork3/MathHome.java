@@ -6,20 +6,31 @@ public class MathHome {
 
     public static void main(String[] args) {
 
-        Random randomVariable = new Random(2L);
-        int boundedRandomDigit = randomVariable.nextInt(10);
-        int b = 32;
-        int c = 60;
+        Random rnd = new Random();
 
-        double x = 11;
-        double y = 7.6;
-        double z = 25.125;
+        int number = rnd.nextInt(10);
+        System.out.println("Переменная int: " + number);
+        int number1 = rnd.nextInt(10);
+        System.out.println("Переменная int1: " + number1);
+        int number2 = rnd.nextInt(10);
+        System.out.println( "Переменная int2: " + number2);
 
-        System.out.println(boundedRandomDigit);
-        Random randomVaiable = new Random();
-        randomVaiable.ints(5, 15)
-                .findFirst()
-                .getAsInt();
+        double random = rnd.nextDouble();
+        System.out.println( "Переменная double: " +random);
+        double random1 = rnd.nextDouble();
+        System.out.println( "Переменная double1: " +random1);
+        double random2 = rnd.nextDouble();
+        System.out.println( "Переменная double2: " +random2);
+
+        double prim = random + number;
+        System.out.println("Решение:" +prim);
+        double prim1 = random1 + number1;
+        System.out.println("Решение:" +prim1);
+        double prim2 = random2 + number2;
+        System.out.println("Решение:" +prim2);
+
+
+
 
     }
 }
