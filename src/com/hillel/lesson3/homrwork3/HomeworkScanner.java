@@ -17,8 +17,6 @@ public class HomeworkScanner {
         int age = s.nextInt();
         s.nextLine();
 
-//        System.out.println("Укажите сколько Вам полных лет:");
-//        Integer.age(s.nextLine());
 
         System.out.println("Введите Вашу почту для регистрации:");
         String email = s.nextLine();
