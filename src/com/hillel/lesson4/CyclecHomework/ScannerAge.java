@@ -1,9 +1,12 @@
 package com.hillel.lesson4.CyclecHomework;
 
+import org.omg.PortableInterceptor.ObjectReferenceFactoryHelper;
+
 import java.util.Scanner;
 
 public class ScannerAge {
     public static void main(String[] args) {
+
 
         Scanner in = new Scanner(System.in);
         System.out.print("Введите свой возраст: ");
@@ -15,10 +18,7 @@ public class ScannerAge {
             System.out.print("Добро пожаловать");
         }else if( 50 < x ){
             System.out.print("Вам будет не интересно на этом сайте");
-        }else{
-            System.out.print("Люди столько не живут");
         }
-
     }
 
 }
