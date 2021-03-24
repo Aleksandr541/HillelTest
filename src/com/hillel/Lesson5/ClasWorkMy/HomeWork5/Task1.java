@@ -9,7 +9,7 @@ public class Task1 {
         String enterName = sc.nextLine();
 
         if (enterName.equals("Hillel")){
-            System.out.println("Welcome to curses  " +enterName);
+            System.out.println("Welcome to the courses  " +enterName);
         }else{
             System.out.println("Welcome  ");
         }

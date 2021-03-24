@@ -10,12 +10,12 @@ public class Task3 {
 
         int x = sc.nextInt();
         int a = x/100;
-        int b = x/10;
-        int z = b%10;
+        int v = x/10;
+        int b = v%10;
         int c = x%10;
 
         System.out.println(a);
-        System.out.println(z);
+        System.out.println(b);
         System.out.println(c);
     }
 }

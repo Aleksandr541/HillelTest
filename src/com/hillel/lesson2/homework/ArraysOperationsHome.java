@@ -31,28 +31,5 @@ public class ArraysOperationsHome {
         System.out.print(myArrayFilled[3]-2 );
         System.out.print(myArrayFilled[4]+2 );
 
-/*
-        if (myArrayFilled[1] == 1){
-            System.out.print(myArrayFilled[1] + 2);
-        }
-        else {System.out.print(myArrayFilled[1] - 2);}
-        if (myArrayFilled2 == 0){
-            System.out.print(myArrayFilled2+2);
-        }
-        else {System.out.print(myArrayFilled2-2);}
-        if (myArrayFilled3 == 1){
-            System.out.print(myArrayFilled3+2);
-        }
-        else {System.out.print(myArrayFilled3-2);}
-        if (myArrayFilled4 == 0){
-            System.out.print(myArrayFilled4+2);
-        }
-        else {System.out.print(myArrayFilled4-2);}
-        if (myArrayFilled5 == 1){
-            System.out.print(myArrayFilled5+2);
-        }
-        else {System.out.print(myArrayFilled5-2);}*/
-
-
     }
 }
